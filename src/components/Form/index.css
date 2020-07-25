@@ -1,0 +1,66 @@
+.modal-cadastro{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.modal-cadastro.open{
+  display: flex;
+}
+.modal-cadastro .modal-cadastro-container{
+  background-color: #fff;
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.modal-cadastro .modal-cadastro-container .btn-fechar{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.modal-cadastro .modal-cadastro-container h2{
+  margin-bottom: 30px;
+}
+
+.modal-cadastro .modal-cadastro-container form{
+  width: 100%;
+}
+
+.modal-cadastro .modal-cadastro-container form .group-input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.modal-cadastro .modal-cadastro-container form .group-input label{
+  margin-bottom: 5px;
+}
+
+.modal-cadastro .modal-cadastro-container form .group-input input{
+  width: 100%;
+  padding: 12px;
+}
+
+.modal-cadastro .modal-cadastro-container form button{
+  width: 100%;
+  padding: 12px;
+}

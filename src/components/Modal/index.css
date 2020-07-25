@@ -1,0 +1,55 @@
+.modal{
+  display: none;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal.open{
+  display: flex;
+}
+
+.modal .modal-container{
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.modal .modal-container .modal-body{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.modal .modal-container .modal-body .editar-inputs{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.modal .modal-container .modal-body .editar-inputs input{
+  padding: 15px;
+}
+
+
+.modal .modal-container .modal-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.modal .modal-container .modal-footer button{
+  padding: 15px 45px;
+}
+

@@ -1,0 +1,46 @@
+.painel-container{
+  height: auto;
+  background-color: #fbfbfb;
+}
+.painel-container .container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.painel-container .container .lista{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 60px;
+  background-color: #ccc;
+  padding: 20px;
+}
+.painel-container .container .lista .usuario{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.painel-container .container .lista .usuario li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.painel-container .container .lista .usuario li span:first-child{
+  font-weight: bold;
+}
+
+.painel-container .container header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addUser{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.addUser span{
+  margin-left: 15px;
+}
